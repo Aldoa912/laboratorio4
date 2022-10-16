@@ -1,0 +1,157 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"62 C:\Users\aldoa\Desktop\CuartoSemestre\Programicro\Laboratorio\laboratorio4\laboratorio4.X\lab4.c
+[v _main main `(v  1 e 1 0 ]
+"130
+[v _valores valores `(v  1 e 1 0 ]
+"141
+[v _setup setup `(v  1 e 1 0 ]
+"160
+[v _setupADC setupADC `(v  1 e 1 0 ]
+"229 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S83 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"246
+[u S92 . 1 `S83 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES92  1 e 1 @6 ]
+"291
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"353
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1239
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S30 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1277
+[s S35 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S44 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S47 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S50 . 1 `S30 1 . 1 0 `S35 1 . 1 0 `S44 1 . 1 0 `S47 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES50  1 e 1 @31 ]
+"1417
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+[s S117 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1496
+[u S126 . 1 `S117 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES126  1 e 1 @134 ]
+"1541
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1603
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S138 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1883
+[s S144 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S149 . 1 `S138 1 . 1 0 `S144 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES149  1 e 1 @143 ]
+[s S165 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2992
+[u S171 . 1 `S165 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES171  1 e 1 @159 ]
+"3388
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3450
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3592
+[v _ADIF ADIF `VEb  1 e 0 @102 ]
+"31 C:\Users\aldoa\Desktop\CuartoSemestre\Programicro\Laboratorio\laboratorio4\laboratorio4.X\lab4.c
+[v _ADC ADC `uc  1 e 1 0 ]
+"32
+[v _alarma alarma `uc  1 e 1 0 ]
+"33
+[v _dis1 dis1 `uc  1 e 1 0 ]
+"34
+[v _dis2 dis2 `uc  1 e 1 0 ]
+"38
+[v _DISPLAY DISPLAY `[16]uc  1 e 16 0 ]
+"62
+[v _main main `(v  1 e 1 0 ]
+{
+"125
+} 0
+"130
+[v _valores valores `(v  1 e 1 0 ]
+{
+[v valores@valor valor `i  1 p 2 9 ]
+"133
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"160 C:\Users\aldoa\Desktop\CuartoSemestre\Programicro\Laboratorio\laboratorio4\laboratorio4.X\lab4.c
+[v _setupADC setupADC `(v  1 e 1 0 ]
+{
+"184
+} 0
+"141
+[v _setup setup `(v  1 e 1 0 ]
+{
+"158
+} 0
